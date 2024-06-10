@@ -3,7 +3,7 @@
 ## Overview
 House Price Predictor is a web application designed to predict the selling price of a house based on its features and the selling prices of nearby houses. Leveraging machine learning algorithms, it analyzes real estate data to provide accurate price estimates.
 
-![image](https://github.com/HarshAhalpara-001/House_priceing_ML01/assets/172242351/5172d446-904a-468b-9c65-676d753c6a05)
+
 
 
 ## Features
@@ -19,8 +19,7 @@ House Price Predictor is a web application designed to predict the selling price
 4. **Making Predictions**: The model predicts the selling price of the input house based on its features.
 5. **Displaying Predictions**: The predicted price is displayed to the user, providing valuable insights for real estate decisions.
 
-## Deployment
-The application can be deployed locally or on a web server using platforms like Heroku, AWS, or Google Cloud Platform.
+![image](https://github.com/HarshAhalpara-001/House_priceing_ML01/assets/172242351/5172d446-904a-468b-9c65-676d753c6a05)
 
 ## Installation
 To run the application locally, follow these steps:
