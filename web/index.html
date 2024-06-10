@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Price Prediction</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>House Price Prediction</h1>
+        <form id="prediction-form">
+            <label for="latitude">Latitude:</label>
+            <input type="text" id="latitude" name="latitude" placeholder="Enter latitude" value="52.8645" required>
+
+            <label for="longitude">Longitude:</label>
+            <input type="text" id="longitude" name="longitude" placeholder="Enter longitude" value="-114.557" required>
+
+            <label for="bedrooms">Number of Bedrooms:</label>
+            <input type="number" id="bedrooms" name="bedrooms" placeholder="Enter number of bedrooms" value="5" required>
+
+            <label for="bathrooms">Number of Bathrooms:</label>
+            <input type="number" step="0.1" id="bathrooms" name="bathrooms" placeholder="Enter number of bathrooms" value="2.5" required>
+
+            <label for="living_area">Living Area:</label>
+            <input type="number" id="living_area" name="living_area" placeholder="Enter living area (sq ft)" value="3650" required>
+
+            <label for="lot_area">Lot Area:</label>
+            <input type="number" id="lot_area" name="lot_area" placeholder="Enter lot area (sq ft)" value="9050" required>
+
+            <label for="floors">Number of Floors:</label>
+            <input type="number" step="0.1" id="floors" name="floors" placeholder="Enter number of floors" value="2" required>
+
+            <label for="waterfront">Waterfront Present:</label>
+            <input type="number" id="waterfront" name="waterfront" placeholder="Enter 1 if waterfront present, else 0" value="0" required>
+
+            <label for="views">Number of Views:</label>
+            <input type="number" id="views" name="views" placeholder="Enter number of views" value="4" required>
+
+            <label for="condition">Condition of the House:</label>
+            <input type="number" id="condition" name="condition" placeholder="Enter condition of the house (1-10)" value="5" required>
+
+            <label for="grade">Grade of the House:</label>
+            <input type="number" id="grade" name="grade" placeholder="Enter grade of the house (1-10)" value="10" required>
+
+            <label for="house_area">Area of the House (excluding basement):</label>
+            <input type="number" id="house_area" name="house_area" placeholder="Enter area of the house (sq ft)" value="3370" required>
+
+            <label for="basement_area">Area of the Basement:</label>
+            <input type="number" id="basement_area" name="basement_area" placeholder="Enter area of the basement (sq ft)" value="280" required>
+
+            <label for="built_year">Built Year:</label>
+            <input type="number" id="built_year" name="built_year" placeholder="Enter built year" value="1921" required>
+
+            <label for="renovation_year">Renovation Year:</label>
+            <input type="number" id="renovation_year" name="renovation_year" placeholder="Enter renovation year" value="0" required>
+
+            <label for="postal_code">Postal Code:</label>
+            <input type="number" id="postal_code" name="postal_code" placeholder="Enter postal code" value="122003" required>
+
+            <label for="living_area_renov">Living Area Renovated:</label>
+            <input type="number" id="living_area_renov" name="living_area_renov" placeholder="Enter renovated living area (sq ft)" value="2880" required>
+
+            <label for="lot_area_renov">Lot Area Renovated:</label>
+            <input type="number" id="lot_area_renov" name="lot_area_renov" placeholder="Enter renovated lot area (sq ft)" value="5400" required>
+
+            <label for="schools_nearby">Number of Schools Nearby:</label>
+            <input type="number" id="schools_nearby" name="schools_nearby" placeholder="Enter number of schools nearby" value="2" required>
+
+            <label for="airport_distance">Distance from the Airport:</label>
+            <input type="number" id="airport_distance" name="airport_distance" placeholder="Enter distance from the airport (km)" value="58" required>
+
+            <button type="submit">Predict</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
